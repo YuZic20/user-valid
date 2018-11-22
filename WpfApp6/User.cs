@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace WpfApp6
+{
+    class User
+    {
+        public string Surname { get; set; }
+        public string Forename { get; set; }
+        public string Email { get; set; }
+        public string Address { get; set; }
+    }
+}

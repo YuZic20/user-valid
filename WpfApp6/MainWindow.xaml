@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <TextBox Grid.Row="0" Height="50" Width="450" Name="BoxFName" KeyDown="Box_KeyDown" KeyUp="Box_KeyUp"></TextBox>
+        <TextBox Grid.Row="1" Height="50" Width="450" Name="BoxLName" KeyDown="Box_KeyDown" KeyUp="Box_KeyUp"></TextBox>
+        <TextBox Grid.Row="2" Height="50" Width="450" Name="BoxEmail" KeyDown="Box_KeyDown" KeyUp="Box_KeyUp"></TextBox>
+        <TextBox Grid.Row="3" Height="50" Width="450" Name="BoxAdress" KeyDown="Box_KeyDown" KeyUp="Box_KeyUp"></TextBox>
+        <TextBlock Grid.Row="4" Height="50" Width="550" Name="OutputText" ></TextBlock>
         
     </Grid>
 </Window>
